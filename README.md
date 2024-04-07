@@ -10,8 +10,7 @@
 </div>
 
 <div align="center">
-<img src="https://img.shields.io/discord/702144279807656038?logo=discord&
-label=Discord&color=5865F2&link=https%3A%2F%2Fdiscord.thecavern.net%2F">
+<img src="https://img.shields.io/discord/702144279807656038?logo=discord&label=Discord&color=5865F2&link=https%3A%2F%2Fdiscord.thecavern.net%2F">
 </div>
 
 Welcome to The Cavern! A truly unique 1.20.2 survival towny server, designed to give players endless enjoyment by introducing a modpack like adventure without ever installing a modpack. 
