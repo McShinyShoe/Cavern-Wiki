@@ -15,6 +15,7 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
 ### Table of contents
 - [Server Basics](#server-basics)
   - [Server Site](#server-site)
+  - [World](#world)
 
 
 ## Server Basics
@@ -32,3 +33,9 @@ Our minecraft server have a website that you can go to do serveral stuff like do
 - [**Server Rule**](https://thecavern.net/rules/): Get all the details you need about our server rules.
 
 - [**Vote Links**](https://thecavern.net/pages/vote/): Help us grow and reach new players by voting for our server on various Minecraft server listing websites. Every vote counts and helps us attract more players to our community and will give you a vote key which u can use to open a vote crates to get stuff like hoppers.
+
+### World
+Our server have three types of worls, which is:
+- **Main World**, There is only one instance of this type of world which is the mainworld and its only have overworld dimension, this is where u want to build bases because the world itself wont reset and most slimefun stuff are enabled in this world.
+- **Resource World**, In this type of world, the world will reset every month regularly. Usually the reset will be anounced in our discord server and there will be a serverwide event killing the ender dragon. There is 3 types of resource which is Overworld resource, Nether resource, and End resource.
+- **Server World**, This type of world are managed by the server and cant be modified by the player.
