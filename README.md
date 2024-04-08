@@ -120,6 +120,8 @@ To navigate the server easily, we profide serveral commands that aids you to nav
 
     The amount of player warp you can have per player depends on your rank. The amount of player warp per rank can be seen in the [ranks](#ranks) section.
 
+    When you want to move a player warp or wants to discontinue it, it is highly suggested that u do not remove the player warp, but re-set it instead or lock it. When you remove a player warp, every info about it like total visits and reviews will be reset, which mean you will lost all of that when u remove it.
+
     When opening the player warp gui menu(without specifying a category), you will be asked to choose a category to open, click one of the category to see the list of player warp in that category. A player warp can be categorized into 5 category, which is `build`, `farm`, `other`, `pvp`, and `shop`.
 
     <br>
