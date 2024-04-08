@@ -21,7 +21,8 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
 - [Server Basics](#server-basics)
   - [Server Site](#server-site)
   - [World](#world)
-
+  - [Basic Commands](#basic-commands)
+- [References](#references)
 
 ## Server Basics
 ### Server Site
@@ -44,3 +45,38 @@ Our server have three types of worls, which is:
 - **Main World**, There is only one instance of this type of world which is the mainworld and its only have overworld dimension, this is where u want to build bases because the world itself wont reset and most slimefun stuff are enabled in this world.
 - **Resource World**, In this type of world, the world will reset every month regularly. Usually the reset will be anounced in our discord server and there will be a serverwide event killing the ender dragon. There is 3 types of resource which is Overworld resource, Nether resource, and End resource.
 - **Server World**, This type of world are managed by the server and cant be modified by the player.
+
+### Basic Commands
+There are many ways to 
+1. **Navigation Commands**
+  
+To navigate the server easily, we profide serveral commands that aids you to navigate throughout the server worlds and location.
+
+  - Home Commands
+  
+    In this server u can set up ur a private teleportation where only you can teleport to called homes. Each player can set a finite amount of homes and that player rank determines the amount of homes they can set.
+
+    |Command|Uses|
+    |-|-|
+    |`/sethome <hostname>`|Set a home in player standing position|
+    |`/home <homename>`|Teleports to a home|
+    |`/delhome <homename>`|Deletes a home|
+    
+    A player can set up a home using the command `/sethome <homename>`. After a player set a home they can teleport to that home location by typing `/home <homename>`. When a player want to change the home location, they can do the same command as setting up the home with the same homename `/sethome <homename>`. And if the player wish to remove their home they can remove it using `/delhome homename`.
+
+    Teleporting to a home requires the player to stand still for 3 seconds before they were teleported. When a home is obfuscated, it will teleport you to the nearest safe area to teleport
+
+    When creating a home, the server checks if u are on a save area or not. A location considered "Safe" when u stand on it, it doesnt dammage the player, the block in the player head is a hollow block, and it is inside the world border<sup><a href="https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146">[1]</a></sup>. A location is considered dammaging if the block below is a block that can dammage a player<sup><a href="https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L164">[2]</a></sup>.
+
+    Hollow blocks is all material that is [transparent](https://minecraft.wiki/w/Opacity#Types_of_transparent_blocks) except barrier and solid blocks(Path and Farmland), and [Light Block](https://minecraft.wiki/w/Light_Block)<sup><a href="https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L42">[3]</a></sup>.
+    
+  - Player Warp
+
+  - Server Warp
+   
+  - Player Teleportation
+
+## References
+1. [isBlockUnsafeForUser method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146)
+2. [isBlockDamaging method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L164)
+3. [HOLLOW_MATERIALS field in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L42)
