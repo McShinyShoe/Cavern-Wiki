@@ -61,8 +61,9 @@ To navigate the server easily, we profide serveral commands that aids you to nav
     |`/sethome <hostname>`|Set a home in player standing position|
     |`/home <homename>`|Teleports to a home|
     |`/delhome <homename>`|Deletes a home|
+    |`/homes`|List all of the homes you have|
     
-    A player can set up a home using the command `/sethome <homename>`. After a player set a home they can teleport to that home location by typing `/home <homename>`. When a player want to change the home location, they can do the same command as setting up the home with the same homename `/sethome <homename>`. And if the player wish to remove their home they can remove it using `/delhome homename`.
+    A player can set up a home using the command `/sethome <homename>`. After a player set a home they can teleport to that home location by typing `/home <homename>`. When a player want to change the home location, they can do the same command as setting up the home with the same homename `/sethome <homename>`. And if the player wish to remove their home they can remove it using `/delhome homename`. `/homes` can be used if you want to get the list of homes that you have set.
 
     Teleporting to a home requires the player to stand still for 3 seconds before they were teleported. When a home is obfuscated, it will teleport you to the nearest safe area to teleport
 
