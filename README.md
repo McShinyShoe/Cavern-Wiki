@@ -68,7 +68,7 @@ To navigate the server easily, we profide serveral commands that aids you to nav
 
     |Command|Uses|
     |-|-|
-    |`/sethome <hostname>`|Set a home in player standing position|
+    |`/sethome <homename>`|Set a home in player standing position|
     |`/home <homename>`|Teleports to a home|
     |`/delhome <homename>`|Deletes a home|
     |`/homes`|List all of the homes you have|
