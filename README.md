@@ -95,7 +95,50 @@ To navigate the server easily, we profide serveral commands that aids you to nav
     
   - Player Warp
 
+    Player Warp is a way for players to set a warp location that can also be accessed by other players. Players can use it to do serveral things like set up a shop, show their builds, create a gathering area, and many more.
+
+    |Command|Uses|
+    |-|-|
+    |`/pw help`|Displaya help menu|
+    |`/pw <warp>`|Teleports to the player warp|
+    |`/pw set <warp>`|Sets a warp in player locaotion|
+    |`/pw remove <warp>`|Remove a player warp|
+    |`/pw desc set <warp> <desc>`|Set a player warp description|
+    |`/pw desc remove <warp>`|Remove a player warp description|
+    |`/pw list`|List all player warp|
+    |`/pw ban set <warp> <player>`|Bans a player from player warp|
+    |`/pw ban remove <warp> <player>`|Unbans a player from player warp|
+    |`/pw ban list <warp>`|List all banned player in a player warp|
+    |`/pw open [category]`|Open player warp gui|
+    |`/pw amount`|Check how much player warp slot you have|
+    |`/pw lock <warp>`|Locks a player warp|
+    |`/pw reset <warp>`|Move a player warp location|
+    |`/pw rename <warp> <name>`|Renames a player warp|
+    |`/pw category set <warp>`|Set a player warp category|
+    |`/pw password set <warp>`|Set a player warp password|
+    |`/pw password remove <warp> <password>`| Remove a player warp password|
+
+    The amount of player warp you can have per player depends on your rank. The amount of player warp per rank can be seen in the [ranks](#ranks) section.
+
+    When opening the player warp gui menu(without specifying a category), you will be asked to choose a category to open, click one of the category to see the list of player warp in that category. A player warp can be categorized into 5 category, which is `build`, `farm`, `other`, `pvp`, and `shop`.
+
+    <br>
+    <div align="center">
+      <img width="60%" src="assets/images/player-warp-menu.png"></img>
+      <p style="text-align: center;"><sup>Image 1.7 Player warp menu</sup></p>
+    </div>
+
+    Once you entered the player warp list in the gui, there are serveral buttons that lets you navigate the gui. Here's some explaination for the buttons
+
+    - **Search Button (Sign)**, Lets you search a player warp by its name
+    - **Sort (Hopper)**, Select how the gui sorts the player warps
+    - **View your warps (Ender Pearl)**, View the player warps that you set
+
+  <br>
+
   - Server Warp
+
+  - Server Ranks
    
   - Player Teleportation
 
