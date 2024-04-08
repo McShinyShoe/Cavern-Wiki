@@ -139,6 +139,21 @@ To navigate the server easily, we profide serveral commands that aids you to nav
   <br>
 
   - Server Warp
+    
+    Server Warp can be accessed using the commmand `/warp` or `/warp <warpname>`. Here are some of the server warps:
+
+    - **Town**, A town that have a lot of MoFood shops
+    - **Crates**, A place where you can use your keys to open crates
+    - **End**, The end dimension resource world main island
+    - **Leaderboards**, This is where the you can see the leaderboard for Total Fish Caught, Most Money, Top Playtime, and Most Votes.
+    - **Dungeon**, The place that lets you enter the dungeon with the dungeon key
+    - **Pinata**, A place where vote party is held
+
+    <br>
+    <div align="center">
+      <img width="60%" src="assets/images/warp-menu.png"></img>
+      <p style="text-align: center;"><sup>Image 1.8 Server warp menu</sup></p>
+    </div>
 
   - Server Ranks
    
