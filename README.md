@@ -40,6 +40,16 @@ Our minecraft server have a website that you can go to do serveral stuff like do
 
 - [**Vote Links**](https://thecavern.net/pages/vote/): Help us grow and reach new players by voting for our server on various Minecraft server listing websites. Every vote counts and helps us attract more players to our community and will give you a vote key which you can use to open a vote crates to get stuff like hoppers.
 
+<br>
+<div align="center">
+  <img width="60%" src="assets/images/cavern-website-forums.png"></img>
+<p style="text-align: center;"><sup>Image 1.1 Cavern forums landing page</sup></p>
+</div>
+<div align="center">
+  <img width="60%" src="assets/images/cavern-website-forums-bottom.png"></img>
+  <p style="text-align: center;"><sup>Image 1.2 Cavern forums landing page after login</sup></p>
+</div>
+
 ### World
 Our server have three types of worls, which is:
 - **Main World**, There is only one instance of this type of world which is the mainworld and its only have overworld dimension, this is where you want to build bases because the world itself wont reset and most slimefun stuff are enabled in this world.
@@ -68,6 +78,20 @@ To navigate the server easily, we profide serveral commands that aids you to nav
     Teleporting to a home requires the player to stand still for 3 seconds before they were teleported. When a home is obfuscated, it will teleport you to the nearest safe area to teleport
 
     When creating a home, the server checks if you are on a save area or not. A location considered "Safe" when you stand on it, it doesnt dammage the player, the block in the player head is a hollow block, and it is inside the world border<sup><a href="https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146">[1]</a></sup>. A location is considered dammaging if the block below is a block that can dammage a player<sup><a href="https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L164">[2]</a></sup>. Hollow blocks is all material that is [transparent](https://minecraft.wiki/w/Opacity#Types_of_transparent_blocks) except barrier and solid blocks(Path and Farmland), and [Light Block](https://minecraft.wiki/w/Light_Block)<sup><a href="https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L42">[3]</a></sup>.
+
+    <br>
+    <div align="center">
+      <img width="60%" src="assets/images/sethome-success.png"></img>
+      <p style="text-align: center;"><sup>Image 1.4 Sethome command success</sup></p>
+    </div>
+    <div align="center">
+      <img width="60%" src="assets/images/sethome-not-safe.png"></img>
+      <p style="text-align: center;"><sup>Image 1.5 Sethome command not safe</sup></p>
+    </div>
+    <div align="center">
+      <img width="60%" src="assets/images/sethome-limit-reached.png"></img>
+      <p style="text-align: center;"><sup>Image 1.6 Sethome command limit reached</sup></p>
+    </div>
     
   - Player Warp
 
