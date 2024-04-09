@@ -22,6 +22,7 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
   - [Server Site](#server-site)
   - [World](#world)
   - [Basic Commands](#basic-commands)
+  - [Server Ranks](#server-ranks)
 - [References](#references)
 
 ## Server Basics
@@ -155,73 +156,71 @@ To navigate the server easily, we profide serveral commands that aids you to nav
       <p style="text-align: center;"><sup>Image 1.8 Server warp menu</sup></p>
     </div>
 
-  - Server Ranks
-
-    In this server there is two types of rank that you can get, in-game ranks and store rank. In-game ranks can be obtained by buying them in `/ranks`, or u can also rankup into your next rank using `/rankup`. 
-
-    |Rank|Upgrade Price|Total Price|
-    |-|-|-|
-    |Citizen|10,000|10,000|
-    |Merchant|45,000|55,000|
-    |Clerk|65,000|120,000|
-    |Novice|90,000|210,000|
-    |Apprentice|110,000|320,000|
-    |Squire|140,000|460,000|
-
-    The second type of ranks is the store ranks. Store ranks is a bit diffrent from in-game ranks because it actually cant be bought using in-game currency(althought you can pay another person to donate for you, see the [IRL Trading](#irl-trading) section). The things that also makes store ranks different from in-game ranks is that store ranks will overwrite the ingame rank, meaning you dont have to be a certain rain to obtain a stora ranks. When you bought a store rank, your in-game rank will be the same but the store rank will overwrite every perks your in-game rank have. This means if you for example transfer your donator rank in your bedrock into your java account, your bedrock account will be back using your ingame rank. You can also rankup ur ingame rank using `/ranks` and `/rankup` even tho u already have a store rank.
-
-    |Store|Upgrade Price|Total Price|
-    |-|-|-|
-    |Viscount|10.00 USD|10.00 USD|
-    |Duke|15.00 USD|25.00 USD|
-    |King|25.00 USD|50.00 USD|
-
-
-    Each of the store rank have also a female-equivalent title in each store rank. you can use the command `/<ranktitle>` to change ur rank title into the desired title. Here are the list of title and their counterpart.
-
-    |Male|Female|
-    |-|-|
-    |viscount|viscountes|
-    |duke|duchess|
-    |king|queen|
-
-    Each rank can give you many perks. Here are some of those perks that you can get for each rank:
-   
-    |Perk|Newcomer|Citizen|Merchant|Clerk|Novice|Apprentice|Squire|Viscount|Duke|King|
-    |---------------| -| -| -| -| -| -| -| -| -| -|
-    |Lottery Tickets| 1| 2| 2| 2| 2| 2| 2| 3| 4| 5|
-    |Job            | 1| 1| 1| 2| 2| 2| 2| 3| 4| 6|
-    |Pet Storage    | -| -| -| -| 2| 2| 2| 3| 5|10|
-    |Chest Shops    | -| -|12|12|12|14|18|45|50|60|
-    |Auction Listing| -| -| 2| 2| 3| 3| 5| 8|15|20|
-    |Player Warp    | -| -| -| -| -| -| 1| 1| 2| 3|
-    |Sethome        | 1| 2| 2| 3| 3| 3| 3| 5|10|20|
-    |`/art`         |✘|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-    |`/marry`       |✘|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-    |`/crawl`       |✘|✘|✘|✔|✔|✔|✔|✔|✔|✔|
-    |`/lay`         |✘|✘|✘|✔|✔|✔|✔|✔|✔|✔|
-    |`/mypet`       |✘|✘|✘|✘|✔|✔|✔|✔|✔|✔|
-    |`/enderchat`   |✘|✘|✘|✘|✘|✔|✔|✔|✔|✔|
-    |`/nation`      |✘|✘|✘|✘|✘|✘|✔|✔|✔|✔|
-    |`/hat`         |✘|✘|✘|✘|✘|✘|✔|✔|✔|✔|
-    |`/itemfilter`  |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
-    |`/eglow`       |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
-    |`<item>`       |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
-    |`/autoswap`    |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
-    |`/near`        |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
-    |`/getpos`      |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
-    |`/ptime`       |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
-    |`/nick`        |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
-    |`/efly`        |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
-    |`/back`        |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-    |`/craft`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-    |`/recipe`      |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-    |`/top`         |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-    |`/condense`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-    |`/trash`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-    |`/esll all`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
-
   - Player Teleportation
+
+### Server Ranks
+In this server there is two types of rank that you can get, in-game ranks and store rank. In-game ranks can be obtained by buying them in `/ranks`, or u can also rankup into your next rank using `/rankup`. 
+
+|Rank|Upgrade Price|Total Price|
+|-|-|-|
+|Citizen|10,000|10,000|
+|Merchant|45,000|55,000|
+|Clerk|65,000|120,000|
+|Novice|90,000|210,000|
+|Apprentice|110,000|320,000|
+|Squire|140,000|460,000|
+   
+The second type of ranks is the store ranks. Store ranks is a bit diffrent from in-game ranks because it actually cant be bought using in-game currency(althought you can pay another person to donate for you, see the [IRL Trading](#irl-trading) section). The things that also makes store ranks different from in-game ranks is that store ranks will overwrite the ingame rank, meaning you dont have to be a certain rain to obtain a stora ranks. When you bought a store rank, your in-game rank will be the same but the store rank will overwrite every perks your in-game rank have. This means if you for example transfer your donator rank in your bedrock into your java account, your bedrock account will be back using your ingame rank. You can also rankup ur ingame rank using `/ranks` and `/rankup` even tho u already have a store rank.
+
+|Store|Upgrade Price|Total Price|
+|-|-|-|
+|Viscount|10.00 USD|10.00 USD|
+|Duke|15.00 USD|25.00 USD|
+|King|25.00 USD|50.00 USD|
+
+Each of the store rank have also a female-equivalent title in each store rank. you can use the command `/<ranktitle>` to change ur rank title into the desired title. Here are the list of title and their counterpart.
+
+|Male|Female|
+|-|-|
+|viscount|viscountes|
+|duke|duchess|
+|king|queen|
+
+Each rank can give you many perks. Here are some of those perks that you can get for each rank:
+
+|Perk|Newcomer|Citizen|Merchant|Clerk|Novice|Apprentice|Squire|Viscount|Duke|King|
+|---------------| -| -| -| -| -| -| -| -| -| -|
+|Lottery Tickets| 1| 2| 2| 2| 2| 2| 2| 3| 4| 5|
+|Job            | 1| 1| 1| 2| 2| 2| 2| 3| 4| 6|
+|Pet Storage    | -| -| -| -| 2| 2| 2| 3| 5|10|
+|Chest Shops    | -| -|12|12|12|14|18|45|50|60|
+|Auction Listing| -| -| 2| 2| 3| 3| 5| 8|15|20|
+|Player Warp    | -| -| -| -| -| -| 1| 1| 2| 3|
+|Sethome        | 1| 2| 2| 3| 3| 3| 3| 5|10|20|
+|`/art`         |✘|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|`/marry`       |✘|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|`/crawl`       |✘|✘|✘|✔|✔|✔|✔|✔|✔|✔|
+|`/lay`         |✘|✘|✘|✔|✔|✔|✔|✔|✔|✔|
+|`/mypet`       |✘|✘|✘|✘|✔|✔|✔|✔|✔|✔|
+|`/enderchat`   |✘|✘|✘|✘|✘|✔|✔|✔|✔|✔|
+|`/nation`      |✘|✘|✘|✘|✘|✘|✔|✔|✔|✔|
+|`/hat`         |✘|✘|✘|✘|✘|✘|✔|✔|✔|✔|
+|`/itemfilter`  |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
+|`/eglow`       |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
+|`<item>`       |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
+|`/autoswap`    |✘|✘|✘|✘|✘|✘|✘|✔|✔|✔|
+|`/near`        |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
+|`/getpos`      |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
+|`/ptime`       |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
+|`/nick`        |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
+|`/efly`        |✘|✘|✘|✘|✘|✘|✘|✘|✔|✔|
+|`/back`        |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+|`/craft`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+|`/recipe`      |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+|`/top`         |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+|`/condense`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+|`/trash`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+|`/sell all`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 
 ## References
 1. [isBlockUnsafeForUser method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146)
