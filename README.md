@@ -25,6 +25,8 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
   - [World](#world)
   - [Basic Commands](#basic-commands)
   - [Server Ranks](#server-ranks)
+  - [Voting](#voting)
+  - [Crates](#crates)
 - [References](#references)
 
 ## Server Basics
@@ -223,6 +225,19 @@ Each rank can give you many perks. Here are some of those perks that you can get
 |`/condense`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 |`/trash`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 |`/sell all`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
+
+### Voting
+
+If you want to support our server, consider vote for our server in minecraft voting websites. Voting will also gives you Vote Keys that lets you open a Vote Crate. If you want to get a list of sites that lets you vote for our server, either
+
+- Get them from our website [https://thecavern.net/pages/vote/](https://thecavern.net/pages/vote/)
+- Get them in our discord server in [#welcome](https://discordapp.com/channels/702144279807656038/702153358315749406/729469286174949423) channel
+
+### Crates
+
+In this server there are serveral crates that can give you many things such ask hopper, shulker shells, and more. To visit our crate area, you can use the command `/warp` and click the crate, or do `/warp crate`. 
+
+To open a crate, you will need that crate's key to open it. Each crate key can be obtained through diffrent means. Some of them are able to be obtained ingame, and some are obtained exclusively through the server store. There are a total of 4 crates you can open in this server.
 
 ## References
 1. [isBlockUnsafeForUser method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146)
