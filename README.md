@@ -239,7 +239,46 @@ If you want to support our server, consider vote for our server in minecraft vot
 
 In this server there are serveral crates that can give you many things such ask hopper, shulker shells, and more. To visit our crate area, you can use the command `/warp` and click the crate, or do `/warp crate`. 
 
-To open a crate, you will need that crate's key to open it. Each crate key can be obtained through diffrent means. Some of them are able to be obtained ingame, and some are obtained exclusively through the server store. There are a total of 4 crates you can open in this server.
+  <br>
+  <div align="center">
+    <img width="80%" src="assets/images/spawn-crates.png"></img>
+    <p style="text-align: center;"><sup>Image 1.9 Crate area at spawn</sup></p>
+  </div>
+
+To open a crate, youSkull tag preview will need that crate's key to open it. Each crate key can be obtained through diffrent means. Some of them are able to be obtained ingame, and some are obtained exclusively through the server store. There are a total of 4 crates you can open in this server.
+
+1. **Vote Craate**
+    
+    Vote crate is the easiest crate that u can open in this server. To obtain it, you can vote on one of our vote links in our [website](https://thecavern.net/pages/vote/) or in our [Discord Server](https://thecavern.net/discord/) to get the key, and open it in thee designated crate area in spawn. Vote links can only be used every 24 hour, and some can do it in every 12 hour.
+
+2. **Common Crate**
+
+    The key for this crate can be obtained from doing in-game minigames. Here are the list of ways you can obtain this key.
+
+    - Winning a Chat Game
+    - Get the top 3 place on blackmarket
+    - Get them from other Crates
+    - Get them from Pinata
+
+3. **Rare Crate**
+
+    Rare crate keys are obtained from donating to our server in our [server store](https://store.thecavern.net/). This crate almost have the same rewards as the other crate but it doesnt have a collector items and also have a chance to give you 3d item too. While this crate doesnt have a collector items, this crate can still gives you tags from obtaining the tag item that you can redeem for the exclusive tags skull, anchor, and yinyang.
+
+    <br>
+    <div align="center">
+      <img width="40%" src="assets/images/rare-tag-skull.png"></img>
+      <p style="text-align: center;"><sup>Image 1.10 Skull tag preview</sup></p>
+      <img width="40%" src="assets/images/rare-tag-anchor.png"></img>
+      <p style="text-align: center;"><sup>Image 1.11 Anchor tag preview</sup></p>
+      <img width="40%" src="assets/images/rare-tag-yinyang.png"></img>
+      <p style="text-align: center;"><sup>Image 1.12 Yinyang tag preview</sup></p>
+    </div>
+
+    Other than exclusive tags, rare crate can also give you 3d items and a fishing rod that can be disenchanted to get Lure 5.
+
+4. **Event Crate**
+
+    This crate is filled exclusively with 3d event items. Items in this crate are time limited, meaning once the event is passed(usually after 1 month) the crate will be discontinued and the keys cant be bought again. The crate itself usually will presist after the next crate release so player can still use their remaining keys.
 
 ## References
 1. [isBlockUnsafeForUser method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146)
