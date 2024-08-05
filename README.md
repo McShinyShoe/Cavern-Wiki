@@ -29,6 +29,7 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
   - [Server Ranks](#server-ranks)
   - [Voting](#voting)
   - [Crates](#crates)
+  - [Lottery](#lottery)
 - [References](#references)
 
 ## Server Basics
@@ -279,6 +280,27 @@ To open a crate, youSkull tag preview will need that crate's key to open it. Eac
 4. **Event Crate**
 
     This crate is filled exclusively with 3d event items. Items in this crate are time limited, meaning once the event is passed(usually after 1 month) the crate will be discontinued and the keys cant be bought again. The crate itself usually will presist after the next crate release so player can still use their remaining keys.
+
+### Lottery
+
+In this server we have plugin that lets you do lottery against other player. You can buy a lottery ticket for **$250** each and **$200** will be added to the total pot. Lottery will be drawn every **1 hour** and will remind everyone when will it draws every **10 minute**s.
+
+Each player has a limit on how many lottery ticket they can buy. This limit is determined by your ingame rank. See [ranks](#ranks) to see how many lottery tickets for each rank.
+
+|Command|Uses|
+|-|-|
+|`/lottery help`|Display the help menu|
+|`/lottery buy`|Buys 1 lottery ticket|
+|`/lottery buy <number>`|Buys a specific amount of lottery|
+|`/lottery status`|Get the current status of lottery|
+
+When initiating `/lottery status`, it will display serveral info including the amount of ticket you havee, the amount of ticket curreently on the pot, the amount of money on the pot, the time until it will be drawn, and also the last player who won the lottery.
+
+<br>
+<div align="center">
+  <img width="40%" src="assets/images/lottery-status.png"></img>
+  <p style="text-align: center;"><sup>Image 1.13 Lottery status display</sup></p>
+</div>
 
 ## References
 1. [isBlockUnsafeForUser method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146)
