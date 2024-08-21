@@ -21,6 +21,11 @@ Welcome to The Cavern! A truly unique 1.20.2 survival towny server, designed to 
 
 The Cavern is a minecraft server that allows **Java** and **Bedrock** players to play on a server with tons of plugins that gives you a unique experience. We provide an SMP-like gameplay in an economy driven server. We use [Towny](https://github.com/TownyAdvanced/Towny/wiki) as our claiming system and The Cavern have many plugins that will capture ur attention.
 
+<br>
+<div align="center">
+  <img width="100%" src="assets/images/cavern-title.png"></img>
+</div>
+
 ### Table of contents
 - [Server Basics](#server-basics)
   - [Server Site](#server-site)
