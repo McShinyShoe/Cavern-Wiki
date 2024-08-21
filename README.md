@@ -70,7 +70,7 @@ Our minecraft server have a website that you can go to do serveral stuff like do
 <br>
 <div align="center">
   <img width="100%" src="assets/images/lestallum-arboria.png"></img>
-<p style="text-align: center;"><sup>Image 2.1 Cavern forums landing page</sup></p>
+<p style="text-align: center;"><sup>Image 2.1 Lestallum town area Arboria</sup></p>
 </div>
 
 Our server have three types of worls, which is:
