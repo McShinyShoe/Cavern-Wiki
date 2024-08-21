@@ -28,19 +28,19 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
 
 ### Table of contents
 - [Server Basics](#server-basics)
-  - [Server Site](#server-site)
-  - [Server Worlds](#server-worlds)
-  - [Basic Commands](#basic-commands)
-  - [Server Ranks](#server-ranks)
-  - [Voting](#voting)
-  - [Crates](#crates)
-  - [Lottery](#lottery)
+  - [1. Server Site](#1-server-site)
+  - [2. Server Worlds](#2-server-worlds)
+  - [3. Basic Commands](#3-basic-commands)
+  - [4. Server Ranks](#4-server-ranks)
+  - [5. Voting](#5-voting)
+  - [6. Crates](#6-crates)
+  - [7. Lottery](#7-lottery)
 - [References](#references)
 
 # Server Basics
 This section is all about the basics of the server. Here, you'll find essential info to get started, understand the core features, and navigate through the server easily.
 
-## Server Site
+## 1. Server Site
 Our minecraft server have a website that you can go to do serveral stuff like do. This website have all kinds of things related to our server, providing you with serveral services like:
 
 - [**Forums**](https://thecavern.net/forums/): Engage with fellow players, share tips and tricks, discuss updates, and connect with the community through our forums. Whether you're seeking advice, looking for new friends to play with, or just want to hang out, our forums are the place to be.
@@ -65,15 +65,21 @@ Our minecraft server have a website that you can go to do serveral stuff like do
   <p style="text-align: center;"><sup>Image 1.2 Cavern forums landing page after login</sup></p>
 </div>
 
-## Server Worlds
+## 2. Server Worlds
+
+<br>
+<div align="center">
+  <img width="100%" src="assets/images/lestallum-arboria.png"></img>
+<p style="text-align: center;"><sup>Image 2.1 Cavern forums landing page</sup></p>
+</div>
+
 Our server have three types of worls, which is:
 - **Main World**, There is only one instance of this type of world which is the mainworld and its only have overworld dimension, this is where you want to build bases because the world itself wont reset and most slimefun stuff are enabled in this world.
 - **Resource World**, In this type of world, the world will reset every month regularly. Usually the reset will be anounced in our discord server and there will be a serverwide event killing the ender dragon. There is 3 types of resource which is Overworld resource, Nether resource, and End resource.
 - **Server World**, This type of world are managed by the server and cant be modified by the player.
 
-## Basic Commands
-There are many ways to 
-1. **Navigation Commands**
+## 3. Basic Commands
+A. **Navigation Commands**
   
 To navigate the server easily, we profide serveral commands that aids you to navigate throughout the server worlds and location.
 
@@ -97,15 +103,15 @@ To navigate the server easily, we profide serveral commands that aids you to nav
     <br>
     <div align="center">
       <img width="60%" src="assets/images/sethome-success.png"></img>
-      <p style="text-align: center;"><sup>Image 1.4 Sethome command success</sup></p>
+      <p style="text-align: center;"><sup>Image 3.1 Sethome command success</sup></p>
     </div>
     <div align="center">
       <img width="60%" src="assets/images/sethome-not-safe.png"></img>
-      <p style="text-align: center;"><sup>Image 1.5 Sethome command not safe</sup></p>
+      <p style="text-align: center;"><sup>Image 3.2 Sethome command not safe</sup></p>
     </div>
     <div align="center">
       <img width="60%" src="assets/images/sethome-limit-reached.png"></img>
-      <p style="text-align: center;"><sup>Image 1.6 Sethome command limit reached</sup></p>
+      <p style="text-align: center;"><sup>Image 3.3 Sethome command limit reached</sup></p>
     </div>
     
   - Player Warp
@@ -142,7 +148,7 @@ To navigate the server easily, we profide serveral commands that aids you to nav
     <br>
     <div align="center">
       <img width="60%" src="assets/images/player-warp-menu.png"></img>
-      <p style="text-align: center;"><sup>Image 1.7 Player warp menu</sup></p>
+      <p style="text-align: center;"><sup>Image 3.4 Player warp menu</sup></p>
     </div>
 
     Once you entered the player warp list in the gui, there are serveral buttons that lets you navigate the gui. Here's some explaination for the buttons
@@ -167,12 +173,12 @@ To navigate the server easily, we profide serveral commands that aids you to nav
     <br>
     <div align="center">
       <img width="60%" src="assets/images/warp-menu.png"></img>
-      <p style="text-align: center;"><sup>Image 1.8 Server warp menu</sup></p>
+      <p style="text-align: center;"><sup>Image 3.5 Server warp menu</sup></p>
     </div>
 
   - Player Teleportation
 
-## Server Ranks
+## 4. Server Ranks
 In this server there is two types of rank that you can get, in-game ranks and store rank. In-game ranks can be obtained by buying them in `/ranks`, or u can also rankup into your next rank using `/rankup`. 
 
 |Rank|Upgrade Price|Total Price|
@@ -236,21 +242,21 @@ Each rank can give you many perks. Here are some of those perks that you can get
 |`/trash`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 |`/sell all`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 
-## Voting
+## 5. Voting
 
 If you want to support our server, consider vote for our server in minecraft voting websites. Voting will also gives you Vote Keys that lets you open a Vote Crate. If you want to get a list of sites that lets you vote for our server, either
 
 - Get them from our website [https://thecavern.net/pages/vote/](https://thecavern.net/pages/vote/)
 - Get them in our discord server in [#welcome](https://discordapp.com/channels/702144279807656038/702153358315749406/729469286174949423) channel
 
-## Crates
+## 6. Crates
 
 In this server there are serveral crates that can give you many things such ask hopper, shulker shells, and more. To visit our crate area, you can use the command `/warp` and click the crate, or do `/warp crate`. 
 
   <br>
   <div align="center">
     <img width="80%" src="assets/images/spawn-crates.png"></img>
-    <p style="text-align: center;"><sup>Image 1.9 Crate area at spawn</sup></p>
+    <p style="text-align: center;"><sup>Image 6.1 Crate area at spawn</sup></p>
   </div>
 
 To open a crate, youSkull tag preview will need that crate's key to open it. Each crate key can be obtained through diffrent means. Some of them are able to be obtained ingame, and some are obtained exclusively through the server store. There are a total of 4 crates you can open in this server.
@@ -275,11 +281,11 @@ To open a crate, youSkull tag preview will need that crate's key to open it. Eac
     <br>
     <div align="center">
       <img width="40%" src="assets/images/rare-tag-skull.png"></img>
-      <p style="text-align: center;"><sup>Image 1.10 Skull tag preview</sup></p>
+      <p style="text-align: center;"><sup>Image 6.2 Skull tag preview</sup></p>
       <img width="40%" src="assets/images/rare-tag-anchor.png"></img>
-      <p style="text-align: center;"><sup>Image 1.11 Anchor tag preview</sup></p>
+      <p style="text-align: center;"><sup>Image 6.3 Anchor tag preview</sup></p>
       <img width="40%" src="assets/images/rare-tag-yinyang.png"></img>
-      <p style="text-align: center;"><sup>Image 1.12 Yinyang tag preview</sup></p>
+      <p style="text-align: center;"><sup>Image 6.4 Yinyang tag preview</sup></p>
     </div>
 
     Other than exclusive tags, rare crate can also give you 3d items and a fishing rod that can be disenchanted to get Lure 5.
@@ -288,7 +294,7 @@ To open a crate, youSkull tag preview will need that crate's key to open it. Eac
 
     This crate is filled exclusively with 3d event items. Items in this crate are time limited, meaning once the event is passed(usually after 1 month) the crate will be discontinued and the keys cant be bought again. The crate itself usually will presist after the next crate release so player can still use their remaining keys.
 
-## Lottery
+## 7. Lottery
 
 In this server we have plugin that lets you do lottery against other player. You can buy a lottery ticket for **$250** each and **$200** will be added to the total pot. Lottery will be drawn every **1 hour** and will remind everyone when will it draws every **10 minute**s.
 
@@ -306,7 +312,7 @@ When initiating `/lottery status`, it will display serveral info including the a
 <br>
 <div align="center">
   <img width="40%" src="assets/images/lottery-status.png"></img>
-  <p style="text-align: center;"><sup>Image 1.13 Lottery status display</sup></p>
+  <p style="text-align: center;"><sup>Image 7.1 Lottery status display</sup></p>
 </div>
 
 # References
