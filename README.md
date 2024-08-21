@@ -29,7 +29,7 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
 ### Table of contents
 - [Server Basics](#server-basics)
   - [Server Site](#server-site)
-  - [World](#world)
+  - [Server Worlds](#server-worlds)
   - [Basic Commands](#basic-commands)
   - [Server Ranks](#server-ranks)
   - [Voting](#voting)
@@ -37,8 +37,10 @@ The Cavern is a minecraft server that allows **Java** and **Bedrock** players to
   - [Lottery](#lottery)
 - [References](#references)
 
-## Server Basics
-### Server Site
+# Server Basics
+This section is all about the basics of the server. Here, you'll find essential info to get started, understand the core features, and navigate through the server easily.
+
+## Server Site
 Our minecraft server have a website that you can go to do serveral stuff like do. This website have all kinds of things related to our server, providing you with serveral services like:
 
 - [**Forums**](https://thecavern.net/forums/): Engage with fellow players, share tips and tricks, discuss updates, and connect with the community through our forums. Whether you're seeking advice, looking for new friends to play with, or just want to hang out, our forums are the place to be.
@@ -63,13 +65,13 @@ Our minecraft server have a website that you can go to do serveral stuff like do
   <p style="text-align: center;"><sup>Image 1.2 Cavern forums landing page after login</sup></p>
 </div>
 
-### World
+## Server Worlds
 Our server have three types of worls, which is:
 - **Main World**, There is only one instance of this type of world which is the mainworld and its only have overworld dimension, this is where you want to build bases because the world itself wont reset and most slimefun stuff are enabled in this world.
 - **Resource World**, In this type of world, the world will reset every month regularly. Usually the reset will be anounced in our discord server and there will be a serverwide event killing the ender dragon. There is 3 types of resource which is Overworld resource, Nether resource, and End resource.
 - **Server World**, This type of world are managed by the server and cant be modified by the player.
 
-### Basic Commands
+## Basic Commands
 There are many ways to 
 1. **Navigation Commands**
   
@@ -170,7 +172,7 @@ To navigate the server easily, we profide serveral commands that aids you to nav
 
   - Player Teleportation
 
-### Server Ranks
+## Server Ranks
 In this server there is two types of rank that you can get, in-game ranks and store rank. In-game ranks can be obtained by buying them in `/ranks`, or u can also rankup into your next rank using `/rankup`. 
 
 |Rank|Upgrade Price|Total Price|
@@ -234,14 +236,14 @@ Each rank can give you many perks. Here are some of those perks that you can get
 |`/trash`       |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 |`/sell all`    |✘|✘|✘|✘|✘|✘|✘|✘|✘|✔|
 
-### Voting
+## Voting
 
 If you want to support our server, consider vote for our server in minecraft voting websites. Voting will also gives you Vote Keys that lets you open a Vote Crate. If you want to get a list of sites that lets you vote for our server, either
 
 - Get them from our website [https://thecavern.net/pages/vote/](https://thecavern.net/pages/vote/)
 - Get them in our discord server in [#welcome](https://discordapp.com/channels/702144279807656038/702153358315749406/729469286174949423) channel
 
-### Crates
+## Crates
 
 In this server there are serveral crates that can give you many things such ask hopper, shulker shells, and more. To visit our crate area, you can use the command `/warp` and click the crate, or do `/warp crate`. 
 
@@ -286,7 +288,7 @@ To open a crate, youSkull tag preview will need that crate's key to open it. Eac
 
     This crate is filled exclusively with 3d event items. Items in this crate are time limited, meaning once the event is passed(usually after 1 month) the crate will be discontinued and the keys cant be bought again. The crate itself usually will presist after the next crate release so player can still use their remaining keys.
 
-### Lottery
+## Lottery
 
 In this server we have plugin that lets you do lottery against other player. You can buy a lottery ticket for **$250** each and **$200** will be added to the total pot. Lottery will be drawn every **1 hour** and will remind everyone when will it draws every **10 minute**s.
 
@@ -307,7 +309,7 @@ When initiating `/lottery status`, it will display serveral info including the a
   <p style="text-align: center;"><sup>Image 1.13 Lottery status display</sup></p>
 </div>
 
-## References
+# References
 1. [isBlockUnsafeForUser method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L146)
 2. [isBlockDamaging method in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L164)
 3. [HOLLOW_MATERIALS field in EssentialX Github](https://github.com/EssentialsX/Essentials/blob/71ca7ffbf6c36c9fd18cf61056295dca4a733f62/Essentials/src/main/java/com/earth2me/essentials/utils/LocationUtil.java#L42)
